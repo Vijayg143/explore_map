@@ -30,7 +30,3 @@ ros2 launch k12_description explore.launch.py
 # To save the map
 ros2 run nav2_map_server map_saver_cli -f ~/explore_map/src/k12_description/maps/map
 
-
-ros2 launch nav2_bringup rviz_launch.py 
-
-ros2 launch nav2_bringup navigation_launch.py
