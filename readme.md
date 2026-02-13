@@ -30,7 +30,6 @@ ros2 launch k12_description explore.launch.py
 # To save the map
 ros2 run nav2_map_server map_saver_cli -f ~/explore_map/src/k12_description/maps/map
 
-# after tha update the map path in your navigation file and change the mode in the mapping params from "mapping" to "localization"
 
 ros2 launch nav2_bringup rviz_launch.py 
 
